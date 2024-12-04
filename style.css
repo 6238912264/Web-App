@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #616161;
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+}
+
+.main-wrap .hero-txt {
+    display: flex;
+    gap: 4px;
+    margin-top: 223px;
+}
+
+@media screen and (max-width:992px) {
+    .main-wrap .hero-txt {
+        display: flex;
+        gap: 4px;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+}
+
+.child {
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+
+.main-wrap .child-txt {
+    color: #B42AB5;
+
+}
+
+@media screen and (max-width:992px) {
+    .img-ill-1 {
+        display: none;
+    }
+}
+
+.main-wrap .hero-txt h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.discover {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width:992px) {
+    .discover {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+.discover .vdo {
+    height: 56px;
+    width: 56px;
+    background: #B42AB5;
+    border-radius: 30px;
+    padding: 16px 22px;
+}
+
+.discover p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #B42AB5;
+    margin-top: 15px;
+
+}
+
+.child-card {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width:992px) {
+    .child-card {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+.card-1 {
+    margin-top: 164px;
+}
+
+@media screen and (max-width:992px) {
+    .card-1 {
+        margin-top: 80px;
+    }
+}
+
+.img-yellow {
+    float: right;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width:992px) {
+    .img-yellow {
+        display: none;
+    }
+}
+
+.card-guid {
+    width: 218.49px !important;
+    background: #344AC1;
+    padding: 30px 30px 19px 23px;
+    position: relative;
+    z-index: 3;
+}
+
+.card-guid h6 {
+    font-weight: 600;
+    font-size: 13.06;
+    color: #FFFFFF;
+
+}
+
+.card-guid .img-ill {
+    width: 43px !important;
+    height: 90px !important;
+    position: absolute;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    bottom: -130px;
+}
+
+@media screen and (max-width:992px) {
+    .card-guid .img-ill {
+        display: none;
+    }
+}
+
+.child-card .card img {
+    width: 47px;
+    height: 47px;
+}
+
+.card-guid p {
+    font-weight: 400;
+    font-size: 13.06;
+    color: #FFFFFF;
+
+}
+
+.wrap {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.img-ill-2 {
+    height: 35px;
+    width: 35px;
+}
+
+@media screen and (max-width:992px) {
+    .img-ill-2 {
+        display: none;
+    }
+}
+
+.card {
+    border: none !important;
+}
+
+.card-skills {
+    width: 318.15px !important;
+    color: #fff;
+    padding: 32px 33px 28px 39px;
+    background: #388A7C;
+}
+
+.card-decn {
+    width: 269.67px !important;
+    color: #fff;
+    padding: 43px 28px 73px 26px;
+    background: #151517;
+}
+
+.clr-txt {
+    color: #B42AB5;
+
+}
+
+.session {
+    background: #E7E9F8;
+    padding: 70px 0px 212px 0px;
+    position: relative;
+}
+
+@media screen and (max-width:992px) {
+    .session {
+        padding: 70px 0px 491px 0px;
+    }
+}
+
+.session h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:992px) {
+    .card-guid {
+        width: 100% !important;
+    }
+
+    .card-skills {
+        width: 100% !important;
+    }
+
+    .card-decn {
+        width: 100% !important;
+    }
+}
+
+.session .clr {
+    font-weight: 600;
+    font-size: 14px;
+    color: #B42AB5;
+    margin-top: 15px;
+}
+
+.card-get {
+    background: url("./images/Subtract.png");
+    width: 206px;
+    height: 341px;
+    position: absolute;
+    left: 68%;
+
+}
+
+@media screen and (max-width:992px) {
+    .card-get {
+        background: url("./images/Subtract.png");
+        width: 206px;
+        height: 341px;
+        position: absolute;
+        margin-top: 30px;
+        left: auto;
+    }
+}
+
+.hero-session {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.hero-session .btn {
+    border: 1px solid #FDD40091;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.card-get h5 {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+    left: 30%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
